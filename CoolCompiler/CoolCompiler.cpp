@@ -4,8 +4,14 @@
 #include "pch.h"
 #include <iostream>
 
+void test_function()
+{
+	std::cout << "This is a test function" << std::endl;
+}
+
 int main()
 {
+	test_function();
     std::cout << "This is a change!\n"; 
 }
 
