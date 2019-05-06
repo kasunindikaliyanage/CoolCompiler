@@ -9,9 +9,15 @@ void test_function()
 	std::cout << "This is a test function" << std::endl;
 }
 
+int test_int()
+{
+	std::cout << "This is a test int" << std::endl;
+}
+
 int main()
 {
 	test_function();
+	test_int();
     std::cout << "This is a change!\n"; 
 }
 
