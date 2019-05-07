@@ -14,6 +14,11 @@ int test_int()
 	std::cout << "This is a test int" << std::endl;
 }
 
+int test_string()
+{
+	std::cout << "This is a test string" << std::endl;
+}
+
 int main()
 {
 	test_function();
